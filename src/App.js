@@ -13,6 +13,7 @@ class App extends React.Component {
   }
   componentWillMount() {
     const Web3 = require("web3");
+    var web3 = new Web3();
     var HDWalletProvider = require("truffle-hdwallet-provider");
     var mnemonic =
       "manage velvet tide tube object spin identify neither foot together wagon tip";
